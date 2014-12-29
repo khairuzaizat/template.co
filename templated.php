@@ -13,8 +13,8 @@ _____
 [1] https://import.io - automatically scrap the link
 
 */
-$urls = array("ion/",
-"solarize/",
+$urls = array("ion",
+"solarize",
 "phaseshift",
 "horizons",
 "linear",
