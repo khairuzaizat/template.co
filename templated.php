@@ -380,6 +380,6 @@ foreach ($urls as $url) {
 	$dl_string = "http://templated.co/" .$url . "/download -o ". $url .".zip";
 	echo "\n********** start downloading ". $url . " ****************\n";	
 	exec(`curl -L $dl_string`);
-	echo "\n********** finishe downloading ". $url . " ****************\n";
+	echo "\n********** finished downloading ". $url . " ****************\n";
 	sleep(5);
 }
