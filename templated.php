@@ -1,5 +1,18 @@
 <?php
+/*
+Name - templated.php
+Author - Shafiq Mustapa (me@shafiqmustapa.my)
+Usage - php templated.php
 
+Stumble this upon site (http://templated.co)that offer over 800+ HTML5 + CSS + Responsive. 
+This php script will download the file automatically. For now, the page is now 7.
+
+Tools
+_____
+
+[1] https://import.io - automatically scrap the link
+
+*/
 $urls = array("http://templated.co/ion/",
 "http://templated.co/solarize/",
 "http://templated.co/phaseshift/",
